@@ -1,19 +1,21 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2761
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+This repository contains data and code associated with the results presented in the paper:
 
-\f0\fs24 \cf0 Available data and code for numerical results present in "Cooper-pair splitters as circuit elements for realizing topological superconductors\'94 by Guilherme Delfino, Dmitry Green, Saulius Vaitiek\uc0\u279 nas, Charles M. Marcus, Claudio Chamon [arXiv: 2408.06420]\
-\
-\
-See the descriptions for the following folders:\
-\
-minimal_model: Numerical study of the effective (coarse-grained) model, as well as the imposition of consistency conditions for the superconducting phase in each sub-lattice of the Kagome geometry.\
-\
-molecule_model :Exact diagonalization for molecule (extended model) Hamiltonian as well as computation of Chern numbers. \
-\
-Kwant: Study of transport properties of a single splitter through python package Kwant\
-\
-}
+"Cooper-pair splitters as circuit elements for realizing topological superconductors”
+by Guilherme Delfino, Dmitry Green, Saulius Vaitiekėnas, Charles M. Marcus, Claudio Chamon
+arXiv:2408.06420
+
+
+The content of this repository is organized into three main folders, each corresponding to a part of the numerical analysis carried out in the paper:
+
+minimal_model/
+Numerical study of the effective (coarse-grained) model for the array of Cooper-pair splitters.
+Analysis includes self-consistent imposition of superconducting phase constraints in each sublattice of the Kagome geometry.
+Focus computing Chern number and constructing phase diagram as a function of flux and superconducting pairing.
+
+molecule_model/
+Contains exact diagonalization codes for the extended "molecule" Hamiltonian.
+Includes study of band structure and computation of Chern numbers using momentum-space techniques.
+
+Kwant/
+Transport simulations of a single splitter using the Kwant Python package.
+Includes scattering matrix calculations and conductance plots, providing complementary insights into the tunneling features of the splitter device.
